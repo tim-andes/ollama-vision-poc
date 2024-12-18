@@ -4,7 +4,6 @@ from ollama import chat
 # Pass in the path to the image
 image_name = input('Please enter the path to the image (.jpg): ')
 path = "images/" + image_name
-print(path)
 
 # You can also pass in base64 encoded image data
 # img = base64.b64encode(Path(path).read_bytes()).decode()
